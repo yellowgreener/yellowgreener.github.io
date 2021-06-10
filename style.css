@@ -91,7 +91,7 @@ button {
   background-color: var(--background-color);
   color: var(--text-color);
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 25px;
   padding: 50px;
   overflow: auto;
 }
@@ -147,6 +147,7 @@ button {
   }
 }
 p {
+  margin-top: 20px;
   text-align: right;
 }
 .btn_talk {

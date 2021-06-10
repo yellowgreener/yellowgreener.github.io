@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GNICT</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./morph.css"/>
+        <script src="https://kit.fontawesome.com/c3cb1bab44.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="menuBar">
+            <ul class="btn-emotions">
+                <li><a id="btn1" class="btn_emotion">NEUTRAL</a></li>
+                <li><a id="btn2" class="btn_emotion">HAPPY</a></li>
+                <li><a id="btn3" class="btn_emotion">WORRY</a></li>
+                <li><a id="btn4" class="btn_emotion">SURPRISE</a></li>
+                <li><a id="btn5" class="btn_emotion">ANGER</a></li>
+                <li><a id="btn6" class="btn_emotion">SADNESS</a></li>
+                <li><a id="btn7" class="btn_emotion">FEAR</a></li>
+                <li><a id="btn8" class="btn_emotion">DISGUST</a></li>
+            </ul>
+            <!-- <ul class="btn-pages">
+                <a class="btn_pageMove" onclick="location.href='./sample.html'">Sample</a>
+                <a class="btn_pageMove" onclick="location.href='./report.html'">Report</a>
+            </ul> -->
+            <a href="#" class="btn-toggle">
+                <i class="fas fa-bars"></i>
+            </a>
+        </nav>
+        <div id="mainZone">
+            <div id="imgZone" class="items">
+                <svg class="neutral" id="_face"
+                        width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="face" cx="125" cy="125" r="125" fill="#FFE600"/>
+                    <path class ="l_eye" d="M88.5 113C88.5 125.703 86.7025 136 74 136C61.2975 136 59 125.703 59 113C59 100.297 61.2975 90 74 90C86.7025 90 88.5 100.297 88.5 113Z" fill="black"/>
+                    <path class ="r_eye" d="M189.5 113C189.5 125.703 187.703 136 175 136C162.297 136 160 125.703 160 113C160 100.297 162.297 90 175 90C187.703 90 189.5 100.297 189.5 113Z" fill="black"/>
+                    <path class ="mouse" id="mouse" d="M141 184.582C141 192.942 133.837 194 125 194C116.163 194 109 192.942 109 184.582C109 176.223 116.163 178.205 125 178.205C133.837 178.205 141 176.223 141 184.582Z" fill="#FF3D3D"/>
+                    <path class ="r_eyebrow" d="M199.5 67.5789C199.5 67.5789 188.307 48.5789 174.5 48.5789C160.693 48.5789 149.5 67.5789 149.5 67.5789C149.5 53.7717 160.693 42.5789 174.5 42.5789C188.307 42.5789 199.5 53.7717 199.5 67.5789Z" fill="black"/>
+                    <path class ="l_eyebrow" d="M99 68C99 68 87.8071 49 74 49C60.1929 49 49 68 49 68C49 54.1929 60.1929 43 74 43C87.8071 43 99 54.1929 99 68Z" fill="black"/>
+                    <path class ="option_sad1" d="" fill="black"/>
+                    <path class ="option_sad2" d="" fill="black"/>
+                    <path class ="option_fear1" d="" fill="black"/>
+                    <path class ="option_fear2" d="" fill="black"/>
+                    <path class ="option_disgust" d="" fill="black"/>
+                </svg>
+            </div>
+            <div id="msgZone" class="items">
+                <!-- <div>
+                    <ul class="btn-list">
+                        <li><a class=btn_font id="small_font">작게</a></li>
+                        <li><a class=btn_font id="normal_font">보통</a></li>
+                        <li><a class=btn_font id="big_font">크게</a></li>
+                    </ul>
+                </div> -->
+                <div id="msgBox">
+                    <p><a class="btn_talk">talk</a></p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </div>             
+            </div>
+        </div>
+            
+        <script type="module" src="./main.js"></script>
+        <script src="./anime.min.js"></script>
+    </body>
+</html>

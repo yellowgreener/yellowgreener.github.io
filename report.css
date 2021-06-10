@@ -1,0 +1,34 @@
+._sample {
+  display: none;
+}
+
+._sample.active {
+  display: block;
+}
+
+.sample_emotion {
+  width: 11%;
+  height: 11%;
+}
+
+.slide-btns {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+
+.slide-btns a {
+  font-size: 40px;
+  opacity: 50%;
+  color: chartreuse;
+}
+
+#move_pre {
+  position: absolute;
+  left: 50px;
+}
+
+#move_next {
+  position: absolute;
+  right: 50px;
+}

@@ -5,7 +5,7 @@
   animation-delay: 3s;
 }
 
-.talk {
+.neutral .talk {
   transform-origin: 50%;
   transform-box: fill-box;
   animation: _talk 2s infinite;
